@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+.title { padding-top: 3%;}
+
+.com { padding-left: 5%; 
+      padding-right: 5%;
+    padding-bottom: 5%}
+
+.com1 {text-align: center;
+      padding-top: 4%;}
+
+.com2 {text-align: center;
+      font-size: 40px;
+    color: indianred;}
+
+.com3 {border: solid;
+color: indianred}
+
+.com5 {width: 80px; height: 100px;}
+
+.com6 {padding-left: 40px;
+padding-right: 40px;}
+
+footer {text-align: center;
+      font-size: small;}
+
+.red {color: indianred;}
+
+
+
+

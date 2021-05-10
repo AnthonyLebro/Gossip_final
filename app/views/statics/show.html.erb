@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="https://freepngimg.com/download/kiss/33295-7-kiss-mark-transparent.png"/>
   <title>The Hacking Potins</title>
 </head>
 <body>
@@ -28,8 +27,17 @@
       </nav>
   </header><br><br>
 
+  <h4 class= com1> Voici le <span class = red> Potin</span></a> que tu veux consulter</h4><br><hr class= com3><br>
 
-  <footer class="footer fixed-bottom py-3 bg-light">
+  <p class = com6>Prénom : <%=@gossips.user.first_name%></p><br>
+  <p class = com6>Nom : <%=@gossips.user.last_name%></p><br>
+  <p class = com6>Description : <%=@gossips.user.description%></p><br>
+  <p class = com6>Email : <%=@gossips.user.email%></p><br>
+  <p class = com6>Age : <%=@gossips.user.age%></p><br>
+  <p class = com6>Date de création : <%=@gossips.user.created_at%></p><br>
+
+
+<footer class="footer fixed-bottom py-3 bg-light">
   <div class="container">
     <span class="text-muted">The Hacking Potins, powered by <span class= red>THE POWER CODERS</span>. Since 2021</span>
   </div>

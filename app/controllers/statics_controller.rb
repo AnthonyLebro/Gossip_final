@@ -1,4 +1,9 @@
 class StaticsController < ApplicationController
+
+  def home
+    @gossips = Gossip.all
+  end
+
   def team
   end
 
@@ -8,7 +13,7 @@ class StaticsController < ApplicationController
   def welcome
   end
 
-  def home
+  def show
+    @gossips = Gossip.find{params[:id]}
   end
-
 end
