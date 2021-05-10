@@ -31,10 +31,10 @@
 
   <p class = com6>Prénom : <%=@gossip.user.first_name%></p><br>
   <p class = com6>Nom : <%=@gossip.user.last_name%></p><br>
-  <p class = com6>Description : <%=@gossip.user.description%></p><br>
+  <p class = com6>Contenu : <%=@gossip.content%></p><br>
   <p class = com6>Email : <%=@gossip.user.email%></p><br>
   <p class = com6>Age : <%=@gossip.user.age%></p><br>
-  <p class = com6>Date de création : <%=@gossip.user.created_at%></p><br>
+  <p class = com6>Date de création : <%=@gossip.created_at%></p><br>
 
   <a href=<%= user_path(@gossip.user.id)%>><button type="button" class="btn btn-secondary">Potin profil de l'utilisateur</button></a><hr>
 
