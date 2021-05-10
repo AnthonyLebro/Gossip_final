@@ -4,4 +4,11 @@ class StaticsController < ApplicationController
 
   def contact
   end
+
+  def welcome
+  end
+
+  def home
+  end
+
 end

@@ -1,2 +1,39 @@
-<h1>Statics#contact</h1>
-<p>Find me in app/views/statics/contact.html.erb</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hacking Potins</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="#">The Hacking Potins</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href=<%=root_path%>>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=<%=team_path%>>Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=<%=contact_path%>>Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+</body>
+</html>
+
